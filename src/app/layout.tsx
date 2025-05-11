@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Instrument_Sans, Inter } from 'next/font/google'
-import LogoImage from '@/assets/images/logo.png'
 import './globals.css'
 
 const inter = Inter({

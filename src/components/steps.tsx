@@ -16,7 +16,7 @@ const steps = [
   { label: 'Payment' },
 ]
 
-const Steps: React.FC<Props> = ({ className }) => {
+const Steps: React.FC<Props> = () => {
   const [currentStep, setCurrentStep] = useState<number>(2)
 
   return (
