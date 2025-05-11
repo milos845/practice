@@ -46,7 +46,7 @@ As part of a coding challenge, I was asked to visit a specific website page and 
 ## 🧱 Installation
 
 ```bash
-git clone https://github.com/optistdev/Skips.git
-cd Skips
-yarn install
-yarn dev
+git clone https://github.com/optistdev/Skip-Selector.git
+cd Skip-Selector
+npm install
+npm run dev
