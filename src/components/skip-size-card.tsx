@@ -35,7 +35,7 @@ const SkipSizeCard: React.FC<Props> = ({
   onSelect,
 }) => {
   const isAvailable: boolean = allowed_on_road && allows_heavy_waste;
-  const unavailableReason: string = !allowed_on_road ? !allows_heavy_waste? 'Unavailable for Heavy Waste or On the Road' : "Not Allowed On The Road" : "Not Suited For Heavy Waste"
+  const unavailableReason: string = !allowed_on_road ? !allows_heavy_waste? 'Not allowed for Heavy Waste and On the Road' : "Not Allowed On The Road" : "Not Suited For Heavy Waste"
 
   return (
     <div
@@ -70,7 +70,7 @@ const SkipSizeCard: React.FC<Props> = ({
       <div className='space-y-1 sm:hidden'>
         <p className='text-xs/3'>
           {size} Yard Skip{' '}
-          <span className='text-[10px]/[10px] text-[#9E9E9E]'>
+          <span className='text-[9px]/[9px] text-[#9E9E9E]'>
             {isAvailable ? 'Available' : unavailableReason}
           </span>
         </p>
