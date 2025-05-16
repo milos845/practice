@@ -1,11 +1,9 @@
-import React from "react";
+import React from 'react'
 
-interface Props {
-
-}
+interface Props {}
 
 const WastType: React.FC<Props> = () => {
-    return <div className="pb-10"></div>
+  return <div className='pb-10'></div>
 }
 
-export default WastType;
+export default WastType
