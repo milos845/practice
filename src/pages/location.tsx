@@ -1,11 +1,9 @@
-import React from "react"
+import React from 'react'
 
-interface Props {
-
-}
+interface Props {}
 
 const Location: React.FC<Props> = () => {
-    return <div className="pb-10">Location</div>
+  return <div className='pb-10'>Location</div>
 }
 
-export default Location;
+export default Location
