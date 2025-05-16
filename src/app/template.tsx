@@ -5,8 +5,8 @@ import { PropsWithChildren } from 'react'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 import BackgroundImage from '@/assets/images/background.jpg'
-import Footer from '@/components/layouts/footer'
-import Header from '@/components/layouts/header'
+import Footer from '@/layouts/footer'
+import Header from '@/layouts/header'
 
 const queryClient = new QueryClient()
 
